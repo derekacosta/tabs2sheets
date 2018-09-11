@@ -1,0 +1,13 @@
+{
+ "manifest_version": 2,
+ "name": "tabs2sheet",
+ "description": "Instead of saving all your bookmarks, upload them on the fly to a google sheet",
+ "version": "1",
+ "author": "Derek Acosta",
+"browser_action": {
+   "default_title": "Thank you",
+   "default_popup": "main.html"
+ },
+ "permissions": ["tabs"],
+   "content_security_policy": "script-src 'self' https://example.com; object-src 'self'"
+}
